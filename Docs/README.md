@@ -6,7 +6,7 @@ Requires NewtonsoftJson to work
 
 # Usage
   - Import NewtonsoftJson into your project
-  - Download [SaveSystem.cs](SaveSystem.cs) and [Singleton.cs](Singleton.cs)
+  - Download and add to your project [SaveSystem.cs](SaveSystem.cs) and [Singleton.cs](Singleton.cs)
   - Create empty gameobject on preloading or main scene and add SaveSystem on it
   - Fill SaveSystem's [PlayerData](SaveSystem.cs/#L73) struct with whatever information you need, fill default values in [LoadPlayerData](SaveSystem.cs/#L36) method
   - If using PlayerPrefs as saving provider:
