@@ -1,3 +1,5 @@
 # SaveSystem
 
-A small system for saving player data of mine, requires NewtonsoftJson to work
+A small system of mine, designed for saving player data.
+
+Requires NewtonsoftJson to work
