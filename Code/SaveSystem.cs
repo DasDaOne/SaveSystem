@@ -46,6 +46,9 @@ public class SaveSystem : Singleton<SaveSystem>
 			{
 				// Fill defaults of your SaveData here
 			};
+
+		// It is very imporant to add null-checks for any collections you add in future updates
+ 		// Since NewtonsoftJson is creating nulls when reading jsons with no info about collections
 		
 		IsDataLoaded = true;
 		return saveData;
