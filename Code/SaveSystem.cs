@@ -78,7 +78,7 @@ public struct PlayerSaveData
 	// Fill content of your SaveData, it can be anything that Newtonsoft can serialize
 	// Example of reactive data:
 	private int cachedMoney;
-	public event Action OnMoneyChanged;
+	public static event Action OnMoneyChanged;
 	public int Money
 	{
 		get => cachedMoney;
