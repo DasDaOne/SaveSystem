@@ -20,7 +20,7 @@ public class SaveSystem : Singleton<SaveSystem>
 
 	private static string lastSavedJson;
 
-	private const int SavingPeriod = 2;
+	private const int SavingPeriod = 4;
 	
 	private void Awake()
 	{
