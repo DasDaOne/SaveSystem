@@ -69,6 +69,7 @@ public class SaveSystem : Singleton<SaveSystem>
 			return;
 			
 		PlayerPrefs.SetString("SaveData", json);
+		lastSavedJson = json;
 	}
 }
 
